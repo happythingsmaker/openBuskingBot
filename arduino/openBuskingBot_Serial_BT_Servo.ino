@@ -36,12 +36,12 @@ void RightHit() {
 
 // 데이터에 따라서 왼손 또는 오른손으로 드럼을 치는 함수
 void hitDrum(char data) {
-    // 만약 데이터가 'a' 라면
-    if (data == 'a') {
+    // 만약 데이터가 'b' 라면
+    if (data == 'b') {
         //왼팔을 움직이세요
         LeftHit();
-    } else if (data == 'b') {
-        // b 라면 오른팔을 치세요
+    } else if (data == 's') {
+        // s 라면 오른팔을 치세요
         RightHit();
     }
 }
@@ -55,8 +55,8 @@ void setup() {
     // 38400 이라는 숫자는 미리 정해진 여러가지 속도 중 하나임
     // 이번 강좌에서 사용된 블루투스는 38400 속도로 셋팅이 되어 있기 때문에 이 속도를 사용함
     long baudrate = 38400;
-    Serial.begin(38400);
-    BTSerial.begin(38400);
+    Serial.begin(baudrate);
+    BTSerial.begin(baudrate);
 }
 
 // 임시로 데이터를 저장할 공간을 마련함
