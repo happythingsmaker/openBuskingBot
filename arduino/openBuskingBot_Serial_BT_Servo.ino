@@ -16,6 +16,10 @@
 #define PIN_NUMBER_LEFT_MOTOR   (9)
 #define PIN_NUMBER_RIGHT_MOTOR  (10)
 
+#define LEFT_HIT_POSITON    140
+#define RIGHT_HIT_POSITON    40
+#define CENTER 90
+
 Servo myservo1; // 첫 번째 서보모터선언
 Servo myservo2; // 두 번째 서보모터 선언
 
@@ -26,17 +30,17 @@ long lastHitTime = 0;
 //왼쪽 팔을 이용해서 드럼을 치는 함수
 void LeftHit() {
     myservo1.attach(PIN_NUMBER_LEFT_MOTOR);//서보모터에 힘을 부여함
-    myservo1.write(45); // 서보 1번에게 90도로 이동하라고 명령 (왼쪽 모터) (팔을 내린다)
+    myservo1.write(LEFT_HIT_POSITON); // 서보 1번에게 90도로 이동하라고 명령 (왼쪽 모터) (팔을 내린다)
     delay(200); // 200ms (0.2초 동안 여기서 대기)
-    myservo1.write(0); // 서보 1번에게 0도로 이동하라고 명령 (왼쪽 모터) (팔을 든다)
+    myservo1.write(CENTER); // 서보 1번에게 0도로 이동하라고 명령 (왼쪽 모터) (팔을 든다)
 }
 
 //오른쪽 팔을 이용해서 드럼을 치는 함수
 void RightHit() {
     myservo2.attach(PIN_NUMBER_RIGHT_MOTOR);//서보모터에 힘을 부여함
-    myservo2.write(0); // 서보 2번에게 90도로 이동하라고 명령 (오른쪽 모터) (팔을 내린다)
+    myservo2.write(RIGHT_HIT_POSITON); // 서보 2번에게 90도로 이동하라고 명령 (오른쪽 모터) (팔을 내린다)
     delay(200); // 200ms (0.2초 동안 여기서 대기)
-    myservo2.write(45); // 서보 2번에게 0도로 이동하라고 명령 (오른쪽 모터) (팔을 든다)
+    myservo2.write(CENTER); // 서보 2번에게 0도로 이동하라고 명령 (오른쪽 모터) (팔을 든다)
 }
 
 // 데이터에 따라서 왼손 또는 오른손으로 드럼을 치는 함수
@@ -48,6 +52,14 @@ void hitDrum(char data) {
     } else if (data == 's') {
         // s 라면 오른팔을 치세요
         RightHit();
+    }  else if (data == 'f') {
+        // f 라면 드럼을 치는 위치로 가서 기다리세요.
+        myservo1.attach(PIN_NUMBER_LEFT_MOTOR);//서보모터에 힘을 부여함
+        myservo2.attach(PIN_NUMBER_RIGHT_MOTOR);//서보모터에 힘을 부여함
+        myservo1.write(LEFT_HIT_POSITON);
+        myservo2.write(RIGHT_HIT_POSITON);
+        delay(60000);
+
     }
 }
 
