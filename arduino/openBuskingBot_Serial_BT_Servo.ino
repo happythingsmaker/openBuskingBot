@@ -26,7 +26,7 @@ long lastHitTime = 0;
 //왼쪽 팔을 이용해서 드럼을 치는 함수
 void LeftHit() {
     myservo1.attach(PIN_NUMBER_LEFT_MOTOR);//서보모터에 힘을 부여함
-    myservo1.write(90); // 서보 1번에게 90도로 이동하라고 명령 (왼쪽 모터) (팔을 내린다)
+    myservo1.write(45); // 서보 1번에게 90도로 이동하라고 명령 (왼쪽 모터) (팔을 내린다)
     delay(200); // 200ms (0.2초 동안 여기서 대기)
     myservo1.write(0); // 서보 1번에게 0도로 이동하라고 명령 (왼쪽 모터) (팔을 든다)
 }
@@ -36,7 +36,7 @@ void RightHit() {
     myservo2.attach(PIN_NUMBER_RIGHT_MOTOR);//서보모터에 힘을 부여함
     myservo2.write(0); // 서보 2번에게 90도로 이동하라고 명령 (오른쪽 모터) (팔을 내린다)
     delay(200); // 200ms (0.2초 동안 여기서 대기)
-    myservo2.write(90); // 서보 2번에게 0도로 이동하라고 명령 (오른쪽 모터) (팔을 든다)
+    myservo2.write(45); // 서보 2번에게 0도로 이동하라고 명령 (오른쪽 모터) (팔을 든다)
 }
 
 // 데이터에 따라서 왼손 또는 오른손으로 드럼을 치는 함수
@@ -62,6 +62,8 @@ void setup() {
     long baudrate = 38400;
     Serial.begin(baudrate);
     BTSerial.begin(baudrate);
+    LeftHit();
+    RightHit();
 }
 
 // 임시로 데이터를 저장할 공간을 마련함
