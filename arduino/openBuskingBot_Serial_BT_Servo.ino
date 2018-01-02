@@ -84,8 +84,8 @@ void loop() {
         lastHitTime = millis();
     }
 
-    //5초 이상 아무런 통신이 오지 않았다면 모터의 힘을 풀겠습니다.
-    if (millis() > lastHitTime + 5000) {
+    // 1000ms (1초) 이상 아무런 통신이 오지 않았다면 모터의 힘을 풀겠습니다.
+    if (millis() > lastHitTime + 1000) {
         myservo1.detach();
         myservo2.detach();
     }
