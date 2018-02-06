@@ -7,6 +7,8 @@
     - https://youtu.be/ZQszbdXlZFM?list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ
 - Youtube instruction
     - https://youtu.be/0rcoJJfILkA?list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ
+- Instructables
+    - https://www.instructables.com/id/BuskingBot-Arduino-Drum-Player-Robot/
 
 ## materials
 
