@@ -6,7 +6,7 @@
 - Youtube Demo
     - https://youtu.be/ZQszbdXlZFM?list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ
 - Youtube instruction
-    - https://www.youtube.com/watch?v=0rcoJJfILkA&t=3s&list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ&index=1
+    - https://youtu.be/0rcoJJfILkA?list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ
 
 ## materials
 
@@ -58,6 +58,12 @@
 ## Preparing Materials
 
 ![](img/0.OverallParts.jpg)
+
+
+download 3d modeling file from thingiverse
+![](img/1.thingiverse.jpg)
+https://www.thingiverse.com/thing:2742894
+
 
 
 ## Assembling OverView
