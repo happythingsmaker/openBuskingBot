@@ -1,5 +1,8 @@
 # Open BuskingBot - Arduino drum player robot
 
+![](img/openBuskingBot.jpg)
+
+
 - Youtube Demo
     - https://youtu.be/ZQszbdXlZFM?list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ
 - Youtube instruction
