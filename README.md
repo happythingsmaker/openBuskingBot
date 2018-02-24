@@ -13,28 +13,28 @@
 ## materials
 
 ------------------------------------ Parts ---------------------------------
-- Servo Motor MG90S  
-    - http://amzn.to/2DfyEiF
-- Arduino Nano
-    - http://amzn.to/2qORUkC
-- Arduino Nano I/O Expansion  
-    - http://amzn.to/2qODdhc
-- Bluetooth HC-05  
-    - http://amzn.to/2D087by
-- Dupont Cable (M-M)  
-    - http://amzn.to/2CWBewp
-- 5v usb battery  
-    - http://amzn.to/2qS1ao5
+- Servo Motor MG90S
+    -  http://ebay.to/2GGaqhZ
+-  Arduino Nano
+    -  http://ebay.to/2F2gILG
+- Arduino Nano I/O Expansion
+    - http://ebay.to/2ERKlw2
+- Bluetooth HC-05
+    - http://ebay.to/2F2giEZ
+- Dupont Cable (M-M)
+    - http://ebay.to/2opsXIV
+- 5v usb battery
+    - http://ebay.to/2F4XPaS
 
 ------------------------------------ Tools ---------------------------------
-- Hot melt glue gun
-    - http://amzn.to/2CMf8cE
-- \+ Driver (3mm)
-    - http://amzn.to/2Di6Dab
-- 3D printer  (P802MA)
-    - http://amzn.to/2CWuVZE
+- 3D printer (P802MA)         
+    - http://ebay.to/2CEQtWv
 - Filament for 3d print (PLA 1.75mm)
-    - http://amzn.to/2DhxPpo
+    - http://ebay.to/2sIp6v7
+- Hot melt glue gun
+    - http://ebay.to/2sKDKSs
+- Soldering Tools
+    - http://ebay.to/2Gw6Qae
 
 ------------------------------------ Instruction --------------------------
 
@@ -45,7 +45,7 @@
 - Youtube
     - https://www.youtube.com/playlist?list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ
 - Manual
-    - https://github.com/happythingsmaker/openBuskingBot
+    - https://sites.google.com/view/100happythings/05-buskingbot
 
 ------------------------------------ About Maker ---------------------------------
 
