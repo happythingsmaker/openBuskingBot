@@ -10,31 +10,8 @@
 - Instructables
     - https://www.instructables.com/id/BuskingBot-Arduino-Drum-Player-Robot/
 
-## materials
-
------------------------------------- Parts ---------------------------------
-- Servo Motor MG90S
-    -  http://ebay.to/2GGaqhZ
--  Arduino Nano
-    -  http://ebay.to/2F2gILG
-- Arduino Nano I/O Expansion
-    - http://ebay.to/2ERKlw2
-- Bluetooth HC-05
-    - http://ebay.to/2F2giEZ
-- Dupont Cable (M-M)
-    - http://ebay.to/2opsXIV
-- 5v usb battery
-    - http://ebay.to/2F4XPaS
-
------------------------------------- Tools ---------------------------------
-- 3D printer (P802MA)         
-    - http://ebay.to/2CEQtWv
-- Filament for 3d print (PLA 1.75mm)
-    - http://ebay.to/2sIp6v7
-- Hot melt glue gun
-    - http://ebay.to/2sKDKSs
-- Soldering Tools
-    - http://ebay.to/2Gw6Qae
+## Materials
+- https://eunchan.me/BUSKINGBOT-d081a51e90bc4085ab07753aee4c1f09
 
 ------------------------------------ Instruction --------------------------
 
@@ -45,7 +22,7 @@
 - Youtube
     - https://www.youtube.com/playlist?list=PLXEhuWdUlcWBM9V6OUaw-OV34vn0xmkCZ
 - Manual
-    - https://sites.google.com/view/100happythings/05-buskingbot
+    - https://eunchan.me/BUSKINGBOT-d081a51e90bc4085ab07753aee4c1f09
 
 ------------------------------------ About Maker ---------------------------------
 
